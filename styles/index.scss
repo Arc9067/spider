@@ -2,6 +2,13 @@
     padding: 0px;
 }
 
+
+body{
+    background: url(../img/homebg.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
 // body{
 //     overflow: hidden;
 // }
@@ -9,7 +16,7 @@
 .loader{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,13 +38,13 @@
 
     @keyframes loader{
         25%{
-            border-color: #ffc800;
+            border-color: #ff3e37;
         }
         50%{
-            color: white;
+            color: #000;
         }
         75%{
-            color: #999999;
+            color: #323a69;
         }
         to{
             transform: rotate(350deg);
@@ -57,11 +64,12 @@ p{
     font-family: "McLaren";
 }
 
+
+
+
 .home{
     height: auto;
     width: 100%;
-    background: #323a69;
-    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,7 +107,7 @@ p{
 
         i{
             font-size: 40px;
-            color: #f9d100;
+            color: white;
             background-color: transparent;
         }
     }
@@ -164,7 +172,7 @@ p{
             align-items: center;
             padding-top: 30px;
             padding-bottom: 30px;
-            background-color: white;
+            // background-color: white;
 
                 .abota{
                     border: none;
@@ -179,7 +187,7 @@ p{
             
                     i{
                         font-size: 40px;
-                        color: #f9d100;
+                        color: #ff3e37;
                         background-color: transparent;
                     }
                 }
@@ -217,13 +225,14 @@ p{
 
 
 .tokenomics{
-    background-color: #323a69;
+    background-color: white;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
     height: auto;
+    overflow: hidden;
 
     .container{
         display: flex;
@@ -242,6 +251,7 @@ p{
                 font-size: 3em;
                 text-align: center;
                 margin-top: 30px;
+                color: #ff3e37;
             }
             .dt{
                 display: flex;
@@ -312,7 +322,7 @@ p{
             
                     i{
                         font-size: 40px;
-                        color: #f9d100;
+                        color: #fff;
                         background-color: transparent;
                     }
                 }
@@ -341,12 +351,13 @@ p{
     }
 
     .road{
-        background-color: white;
+        background-color: #000;
         display: flex;
         justify-content: center;
         align-items: center;
         position: relative;
         padding-bottom: 50px;
+        overflow: hidden;
 
         li{
             font-family: "McLaren";
@@ -365,6 +376,7 @@ p{
         h1{
             text-align: center;
             font-weight: bolder;
+            color: #ff3e37;
         }
 
         .dh1{
@@ -376,7 +388,7 @@ p{
         ul {
             padding-bottom: 20px;
             z-index: 1000;
-            background-color: #323a69;
+            background-color: #ff3e37;
             color: white;
             box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
             border-radius: 15px;

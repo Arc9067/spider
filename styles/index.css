@@ -2,10 +2,17 @@
   padding: 0px;
 }
 
+body {
+  background: url(../img/homebg.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
 .loader {
   height: 100vh;
   width: 100%;
-  background-color: #fff;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,13 +34,13 @@
 }
 @-webkit-keyframes loader {
   25% {
-    border-color: #000;
+    border-color: #ff3e37;
   }
   50% {
-    color: white;
+    color: #000;
   }
   75% {
-    color: #999999;
+    color: #323a69;
   }
   to {
     transform: rotate(350deg);
@@ -41,13 +48,13 @@
 }
 @keyframes loader {
   25% {
-    border-color: #ea2416;
+    border-color: #ff3e37;
   }
   50% {
-    color: white;
+    color: #000;
   }
   75% {
-    color: #999999;
+    color: #323a69;
   }
   to {
     transform: rotate(350deg);
@@ -70,9 +77,6 @@ p {
 .home {
   height: auto;
   width: 100%;
-  background: url(../img/homebg.png);
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -104,7 +108,7 @@ p {
 }
 .home .container a i {
   font-size: 40px;
-  color: #ea2416;
+  color: white;
   background-color: transparent;
 }
 .home .container .img2 {
@@ -143,7 +147,7 @@ p {
   height: auto;
   width: 100%;
   background-color: white;
-  color: #28288a;
+  color: #323a69;
   padding-bottom: 30px;
   overflow: hidden;
   position: relative;
@@ -160,7 +164,6 @@ p {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: white;
 }
 .about .container .row .abota {
   border: none;
@@ -170,7 +173,7 @@ p {
 }
 .about .container .row .abota i {
   font-size: 40px;
-  color: #ea2416;
+  color: #ff3e37;
   background-color: transparent;
 }
 .about .container .row .abtdiv .about-btn {
@@ -180,7 +183,7 @@ p {
   flex-wrap: wrap;
 }
 .about .container .row .abtdiv .about-btn a {
-  background-color: #28288a;
+  background-color: #323a69;
   -moz-column-gap: 20px;
        column-gap: 20px;
   color: white;
@@ -191,7 +194,7 @@ p {
 }
 
 .tokenomics {
-  background-color: #323a69;
+  background-color: white;
   color: white;
   display: flex;
   justify-content: center;
@@ -214,6 +217,7 @@ p {
   font-size: 3em;
   text-align: center;
   margin-top: 30px;
+  color: #ff3e37;
 }
 .tokenomics .container .row .dt {
   display: flex;
@@ -243,7 +247,7 @@ p {
 }
 .tokenomics .container .row .dt .mt .dt-txt {
   width: 60%;
-  color: #28288a;
+  color: #323a69;
 }
 .tokenomics .container .row .dt .mt .dt-txt h3 {
   font-size: 2em;
@@ -271,7 +275,7 @@ p {
 }
 .tokenomics .container .row .dt a i {
   font-size: 40px;
-  color: #ea2416;
+  color: #fff;
   background-color: transparent;
 }
 
@@ -290,14 +294,13 @@ p {
 }
 
 .road {
-  background-color: white;
+  background-color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   padding-bottom: 50px;
   overflow: hidden;
-  text-transform: uppercase;
 }
 .road li {
   font-family: "McLaren";
@@ -313,6 +316,7 @@ p {
 .road h1 {
   text-align: center;
   font-weight: bolder;
+  color: #ff3e37;
 }
 .road .dh1 {
   padding: 5px 5px;
@@ -321,7 +325,7 @@ p {
 .road ul {
   padding-bottom: 20px;
   z-index: 1000;
-  background-color: #28288a;
+  background-color: #ff3e37;
   color: white;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   border-radius: 15px;
