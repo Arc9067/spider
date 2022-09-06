@@ -1,0 +1,5 @@
+@media screen and (max-width:500px){
+    .home .container p{
+        width: 100%;
+    }
+}

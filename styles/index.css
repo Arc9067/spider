@@ -1,0 +1,331 @@
+* {
+  padding: 0px;
+}
+
+.loader {
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #323a69;
+  text-decoration: underline;
+  overflow: hidden;
+  position: fixed;
+  z-index: 999999999999999900000000000;
+}
+.loader .loader-con {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #323a69;
+  border-radius: 50px;
+  border-top-color: transparent;
+  border-top: 0px;
+  -webkit-animation: loader 1s linear infinite;
+          animation: loader 1s linear infinite;
+}
+@-webkit-keyframes loader {
+  25% {
+    border-color: #000;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #999999;
+  }
+  to {
+    transform: rotate(350deg);
+  }
+}
+@keyframes loader {
+  25% {
+    border-color: #ea2416;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: #999999;
+  }
+  to {
+    transform: rotate(350deg);
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat" sans-serif;
+}
+
+p {
+  font-family: "McLaren";
+}
+
+.home {
+  height: auto;
+  width: 100%;
+  background: url(../img/homebg.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: white;
+}
+
+.home .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.home .container h1 {
+  font-size: 4em;
+  font-weight: bolder;
+}
+.home .container p {
+  font-size: 18px;
+  width: 40%;
+  text-align: center;
+}
+.home .container a {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+.home .container a i {
+  font-size: 40px;
+  color: #ea2416;
+  background-color: transparent;
+}
+.home .container .img2 {
+  position: absolute;
+  top: 50pxpx;
+  left: 0px;
+  opacity: 0.3;
+}
+.home .container .img3 {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  opacity: 0.5;
+}
+.home .container .img4 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  opacity: 0.3;
+}
+.home .container .img5 {
+  position: absolute;
+  bottom: 100px;
+  left: 800px;
+  opacity: 0.3;
+}
+.home .container .img6 {
+  position: absolute;
+  bottom: 100px;
+  right: 800px;
+  opacity: 0.1;
+  transform: rotate(45deg);
+}
+
+.about {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  color: #28288a;
+  padding-bottom: 30px;
+  overflow: hidden;
+  position: relative;
+}
+.about .container .absoit {
+  position: absolute;
+  opacity: 0.5;
+  top: 0px;
+  right: 0px;
+}
+.about .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+}
+.about .container .row .abota {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-bottom: 30px;
+}
+.about .container .row .abota i {
+  font-size: 40px;
+  color: #ea2416;
+  background-color: transparent;
+}
+.about .container .row .abtdiv .about-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about .container .row .abtdiv .about-btn a {
+  background-color: #28288a;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  color: white;
+  margin-top: 20px !important;
+}
+.about .container .row .abota {
+  text-align: center;
+}
+
+.tokenomics {
+  background-color: #323a69;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.tokenomics .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.tokenomics .container .row {
+  justify-content: center;
+  align-items: center;
+}
+.tokenomics .container .row h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 30px;
+}
+.tokenomics .container .row .dt {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1000;
+}
+.tokenomics .container .row .dt .mt {
+  margin-top: 40px;
+  background-color: #fff;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 100000;
+}
+.tokenomics .container .row .dt .mt .dt-img {
+  border-radius: 50px;
+  width: 40%;
+}
+.tokenomics .container .row .dt .mt .dt-txt {
+  width: 60%;
+  color: #28288a;
+}
+.tokenomics .container .row .dt .mt .dt-txt h3 {
+  font-size: 2em;
+  font-weight: bolder;
+}
+.tokenomics .container .row .dt .mt .dt-txt p {
+  font-size: 1.5em;
+}
+.tokenomics .container .row .dt .abso {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+.tokenomics .container .row .dt .divbt {
+  z-index: 10000;
+}
+.tokenomics .container .row .dt a {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tokenomics .container .row .dt a i {
+  font-size: 40px;
+  color: #ea2416;
+  background-color: transparent;
+}
+
+.small, small {
+  font-size: 18px;
+}
+
+.fa-telegram-plane:before, .fa-telegram:before {
+  color: white;
+  font-size: 30px;
+}
+
+.fa-twitter-plane:before, .fa-twitter:before {
+  color: white;
+  font-size: 30px;
+}
+
+.road {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-bottom: 50px;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.road li {
+  font-family: "McLaren";
+}
+.road .roadi1, .road .roadi2 {
+  position: absolute;
+  opacity: 0.6;
+}
+.road .roadi2 {
+  right: 10px;
+  bottom: 20px;
+}
+.road h1 {
+  text-align: center;
+  font-weight: bolder;
+}
+.road .dh1 {
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+.road ul {
+  padding-bottom: 20px;
+  z-index: 1000;
+  background-color: #28288a;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 15px;
+}
+.road ul h1 {
+  font-size: 2em;
+}/*# sourceMappingURL=index.css.map */
