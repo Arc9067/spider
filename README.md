@@ -34,7 +34,6 @@ A frontend website for Spider Boy built using html-css-js-aos-bootstrap-jquery
 
 ![alt text](https://github.com/Arc9067/spider/blob/main/Screenshots/4.PNG?raw=true)
 
-![alt text](https://github.com/Arc9067/spider/blob/main/Screenshots/5.PNG?raw=true)
 
 ### Link to website Preview
 
